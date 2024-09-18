@@ -7,7 +7,7 @@ def index():
     file = None
     if request.method == 'POST':
         file = pd.read_csv(request.form['file'])
-    return render_template('home.html', file=file)
+    return render_template('home.html', file=file.describe())
 
 if __name__ == '__main__':
     app.run(debug=True)
