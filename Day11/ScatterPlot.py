@@ -1,0 +1,6 @@
+plt.figure(figsize=(8, 6))
+sns.scatterplot(data=df, x='petal_length', y='petal_width', hue='species', style='species', palette='Set2', s=100)
+plt.title('Scatter Plot of Iris Dataset : Petal Length vs Petal Width')
+plt.xlabel('Petal Length')
+plt.ylabel('Petal Width')
+plt.show()

@@ -1,0 +1,6 @@
+plt.figure(figsize=(8, 6))
+sns.histplot(data=df, x='sepal_width', hue='species', kde=True)
+plt.title('Histogram of Iris Dataset : Sepal Width by Species')
+plt.xlabel('Sepal Width')
+plt.ylabel('Frequency')
+plt.show()

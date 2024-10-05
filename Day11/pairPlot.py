@@ -1,0 +1,6 @@
+plt.figure(figsize=(8, 6))
+sns.pairplot(data=df, hue='species', palette='Set2')
+plt.suptitle('Pair Plot of Iris Dataset', y=1.02)
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.show()

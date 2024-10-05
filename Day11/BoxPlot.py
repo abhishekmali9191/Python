@@ -1,0 +1,6 @@
+plt.figure(figsize=(8, 6))
+sns.boxplot(data=df, x='species', y='sepal_length')
+plt.title('Box Plot of Iris Dataset : Sepal Length by Species')
+plt.xlabel('Species')
+plt.ylabel('Sepal Length')
+# plt.show()
